@@ -37,33 +37,66 @@
 Event ID 1 – Process Creation:
              Yeni bir süreç oluşturulduğunda kaydedilir.
              Sürecin adı, işlem kimliği, komut satırı parametreleri gibi bilgileri içerir.
+
 Event ID 2 – File Creation Time Changed:
              Bir dosyanın oluşturulma zamanında bir değişiklik yapıldığında kaydedilir.
              Bu, dosyanın zaman damgasının değiştiğini gösterir.
+
 Event ID 3 – Network Connection:
              Bir ağ bağlantısı yapıldığında (TCP/UDP) kaydedilir.
              Bağlantı bilgileri, IP adresleri ve portlar gibi detayları içerir.
+
 Event ID 4 – Sysmon Service State Changed:
              Sysmon hizmetinin durumu değiştiğinde kaydedilir.
              Hizmetin başlatılması veya durdurulması gibi durumları içerir.
+
 Event ID 5 – Process Terminated:
              Bir sürecin sonlandığı durumları kaydeder.
              Sürecin kimliği ve sonlanma kodu gibi bilgileri içerir.
+
 Event ID 6 – Driver Load:
              Bir sürücünün yüklendiği durumlarda kaydedilir.
              Sürücünün yolu ve dosya adı gibi bilgileri içerir.
+
 Event ID 7 – Image Load:
              Bir yürütülebilir dosya veya dinamik bağlantı kitaplığı (DLL) yüklendiğinde kaydedilir.
              Yüklenen dosyanın yolu gibi bilgileri içerir.
-Event ID 8 – CreateRemoteThread: Bir süreçten diğer bir sürece uzaktan bir iş parçacığı oluşturulduğunda kaydedilir. Bu, genellikle kötü niyetli aktivitelerin bir göstergesidir.
-Event ID 9 – Raw Access Read: Bir dosyanın ham okuma erişimi sağlandığında kaydedilir. Bu, dosyaya doğrudan erişim sağlandığını gösterir.
-Event ID 10 – Process Access: Bir sürecin diğer bir süreç tarafından erişildiği durumlarda kaydedilir. Erişim türü ve sürecin kimliği gibi bilgileri içerir.
-Event ID 11 – File Create: Bir dosya oluşturulduğunda kaydedilir. Dosyanın yolu ve oluşturulma zamanı gibi bilgileri içerir.
-Event ID 12 – Registry Event: Kayıt defteri (registry) üzerinde yapılan değişiklikleri kaydeder. Anahtarlar ve değerler üzerindeki değişiklikleri içerir.
-Event ID 13 – Registry Value Set: Kayıt defterinde bir değerin ayarlandığı durumlarda kaydedilir. Yeni veya değiştirilen değerleri içerir.
-Event ID 14 – Registry Key Deleted: Bir kayıt defteri anahtarının silindiği durumlarda kaydedilir. Silinen anahtarın yolu gibi bilgileri içerir.
-Event ID 15 – File Delete: Bir dosyanın silindiği durumlarda kaydedilir. Silinen dosyanın yolu ve diğer detayları içerir.
-Event ID 16 – File Rename: Bir dosyanın yeniden adlandırıldığı durumlarda kaydedilir. Yeni ve eski dosya adları gibi bilgileri içerir.
+
+Event ID 8 – CreateRemoteThread:
+             Bir süreçten diğer bir sürece uzaktan bir iş parçacığı oluşturulduğunda kaydedilir.
+             Bu, genellikle kötü niyetli aktivitelerin bir göstergesidir.
+
+Event ID 9 – Raw Access Read:
+             Bir dosyanın ham okuma erişimi sağlandığında kaydedilir.
+             Bu, dosyaya doğrudan erişim sağlandığını gösterir.
+
+Event ID 10 – Process Access:
+              Bir sürecin diğer bir süreç tarafından erişildiği durumlarda kaydedilir.
+              Erişim türü ve sürecin kimliği gibi bilgileri içerir.
+
+Event ID 11 – File Create:
+              Bir dosya oluşturulduğunda kaydedilir.
+              Dosyanın yolu ve oluşturulma zamanı gibi bilgileri içerir.
+
+Event ID 12 – Registry Event:
+              Kayıt defteri (registry) üzerinde yapılan değişiklikleri kaydeder.
+              Anahtarlar ve değerler üzerindeki değişiklikleri içerir.
+
+Event ID 13 – Registry Value Set:
+              Kayıt defterinde bir değerin ayarlandığı durumlarda kaydedilir.
+              Yeni veya değiştirilen değerleri içerir.
+
+Event ID 14 – Registry Key Deleted:
+              Bir kayıt defteri anahtarının silindiği durumlarda kaydedilir.
+              Silinen anahtarın yolu gibi bilgileri içerir.
+
+Event ID 15 – File Delete:
+              Bir dosyanın silindiği durumlarda kaydedilir.
+              Silinen dosyanın yolu ve diğer detayları içerir.
+
+Event ID 16 – File Rename:
+              Bir dosyanın yeniden adlandırıldığı durumlarda kaydedilir.
+              Yeni ve eski dosya adları gibi bilgileri içerir.
 ```
 
 
