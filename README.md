@@ -59,4 +59,6 @@ Antivirus & EDR arasındaki farklar ?
    Farklı process id ile işleme devam edersen bu ürünleri atlatabilirsin
 ```
 
-https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx
+
+[UltimateWindowsSecurity](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx)
+
