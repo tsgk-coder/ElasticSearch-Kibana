@@ -2,29 +2,39 @@
 
 https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx
 
-agent.type :"endpoint"  and 
-process.entity_id :* and 
-host.name:"desktop-8f3jgrb" and 
-process.name :"rundll32.exe" and 
-process.args:"MiniDump"
-(event.code:"1" or event.code:"4104") and process.command_line:*HKLM* and process.command_line:*add* and process.command_line:*Defender*
+``agent.type :"endpoint"``  
+
+``process.entity_id :* ``
+
+``host.name:"desktop-8f3jgrb"`` 
+
+``process.name :"rundll32.exe"`` 
+
+``process.args:"MiniDump"``
+
+``event.code:"1"`` 
+
+``process.command_line:*HKLM*``
+
+``message:"Invoke"``  
+
+``event.provider``
 
 
-event.code:4104 and message:"Invoke" and message:"SAM" 
+``Powershell Aktiviteleri Takibi``
+``Host Bazlı Güvenlik Önlemi``
+``Powershell & Sysmon  & EDR``
 
-event.provider
+# Event Code 
 
-event code
-
-Powershell Aktiviteleri Takibi
-Host Bazlı Güvenlik Önlemi
-Powershell & Sysmon  & EDR
+```
 4104
 4103
-
+```
 Antivirus & EDR arasındaki farklar ? 
-____________________________________
+   --
 
+```
 *  Antivirus malware imza tabanlı.
    Gelişmiş Antivirüs
    Makine öğrenmesi ile çağrılan patern Match yapıyor.
@@ -48,3 +58,4 @@ ____________________________________
    MDR
 
    Farklı process id ile işleme devam edersen bu ürünleri atlatabilirsin
+```
