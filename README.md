@@ -5,23 +5,23 @@
 
 # Kibana Query Language
 
+``event.provider:"Microsoft-Windows-Sysmon"``
+
+``event.code:"1"`` 
+
 ``agent.type :"endpoint"``  
 
 ``process.entity_id :* ``
 
-``host.name:"desktop-8f3jgrb"`` 
+``host.name:"desktop-xxxxxxx"`` 
 
 ``process.name :"rundll32.exe"`` 
 
 ``process.args:"MiniDump"``
 
-``event.code:"1"`` 
-
 ``process.command_line:*HKLM*``
 
 ``message:"Invoke"``  
-
-``event.provider``
 
 
 # Windows Powershell Event Code 
