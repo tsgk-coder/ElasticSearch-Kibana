@@ -27,9 +27,8 @@
 # Windows Powershell Event Code 
 
 ```
-4104,  
-4103,
-4688
+4104  
+4103
 ```
 
 
