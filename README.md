@@ -2,6 +2,8 @@
 
 [Ultimate Windows Security](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx)
 
+`` Elimizde envanter olması gerekiyor ``
+
 # İlk Tespit
 
 ``Sistemd hakkında genel bilgi alınması gerekiyor.``
@@ -12,7 +14,11 @@
 
 ``İnternete çıkoyrumu``
 
-``suncuumu client mı ``
+``Suncuumu client mı sormamız gerekiyor
+sunucu ise 
+şirket te önce sunuculara firewal kurulur 
+case den sonra o vaka da neler olmuş sürecin dışına çıkan bişey varmı
+``
 
 ``kimler erişebilir``
 
@@ -22,7 +28,10 @@
 
 `` ilgili sistemin ip adresi hostnamei ve domaine dahilmi kontrol edilmeli.``
 
-``**Sistemde şüpheli bir aktivite görüp bilgisayar kapatıldımı. ``
+``**Sistemde şüpheli bir aktivite görüp bilgisayar kapatıldımı. (Memoride tutulan bilgileri kaçırmış oluruz eğer kapatılmışsa) ``
+
+`` .``
+
 
 # Sonrası
 
@@ -36,6 +45,7 @@
 
 ``İlk nereye bakılacağını analiz etmek.``
 
+`` .``
 
 
 # Kibana Query Language
