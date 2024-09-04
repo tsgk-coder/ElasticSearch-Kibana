@@ -2,6 +2,41 @@
 
 [Ultimate Windows Security](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx)
 
+# İlk Tespit
+
+``Sistemd hakkında genel bilgi alınması gerekiyor.``
+
+``Üzerinde agent varmı.``
+
+``Yakın zamanda zafiyet taraması yapıldımı.``
+
+``İnternete çıkoyrumu``
+
+``suncuumu client mı ``
+
+``kimler erişebilir``
+
+``üzerinde özel bir servis varmı``
+
+``bağlı olduğu uygulama varmı.``
+
+`` ilgili sistemin ip adresi hostnamei ve domaine dahilmi kontrol edilmeli.``
+
+``**Sistemde şüpheli bir aktivite görüp bilgisayar kapatıldımı. ``
+
+# Sonrası
+
+``Verileri bir formatta indirip ilk aşamada göze çarpan birşey varmı bakılır.``
+
+``Path bazlı kontrol edilebilir.``
+
+``C:\Users\Administrator\Download.``
+
+``iki veya tek harfli exe ler kontrol edilebilir.``
+
+``İlk nereye bakılacağını analiz etmek.``
+
+
 
 # Kibana Query Language
 
@@ -22,6 +57,8 @@
 ``process.command_line:*HKLM*``
 
 ``message:"Invoke"``  
+
+``Winlog.event_data.CurrentDirectory:"C:\Users\Administrator\Download"``  
 
 
 # Windows Powershell Event Code 
